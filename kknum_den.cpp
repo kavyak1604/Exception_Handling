@@ -24,4 +24,7 @@ catch (const char *message)
 /*enter the numerator:6
 enter the denominator:27
 6/27=0.222222
+/*enter the numerator:6
+enter the denominator:0
+infinite
 
