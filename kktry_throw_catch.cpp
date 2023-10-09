@@ -29,5 +29,5 @@ main()
 /*enter your age:19
 you are authorised to create the account
 /*enter your age:16
-you are not authorised to create the account
+16
 
