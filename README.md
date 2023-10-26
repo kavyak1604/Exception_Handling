@@ -30,6 +30,19 @@ c. After the inner try-catch block, throw an exception with the message "you are
 If the age is not less than 18, print "you are authorized to create the account."<br>
 Catch any exceptions of type const char* and print the exception message to the console.<br>
 End<br>
+b)Numerator & Denominator<br>
+Start<br>
+Declare double variables numerator and denominator to store user input.<br>
+The user to enter the numerator and read the value into the numerator variable.<br>
+Prompt the user to enter the denominator and read the value into the denominator variable.<br>
+Begin a try-catch block to handle exceptions:<br>
+a. Check if the denominator is equal to 0. If true, throw an exception with the message "infinite."<br>
+b. If the denominator is not equal to 0, calculate the division d by dividing the numerator by the denominator.<br>
+c. Display the result as a fraction: numerator / denominator = d.<br>
+Catch any exceptions of type const char* and print the exception message to the console.<br>
+End<br>
+## CONCLUSION
+Hence in this repository programs like age authorization and calculating quotients using exception-handling were performed.
 
 
 
