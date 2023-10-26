@@ -16,5 +16,20 @@ The try statement allows you to define a block of code to be tested for errors w
 The throw keyword throws an exception when a problem is detected, which lets us create a custom error.<br>
 The catch statement allows you to define a block of code to be executed if an error occurs in the try block.<br>
 
+## ALGORITHM
+a)Age authorisation
+Start<br>
+Declare an integer variable age to store the user's age.<br>
+Prompt the user to enter their age and read it into the age variable.<br>
+Begin the outer try-catch block:<br>
+a. Check if the age is less than 18. If true, proceed to the inner try-catch block.<br>
+b. Begin the inner try-catch block:<br>
+i. Check if the age is greater than or equal to 16 and less than or equal to 18. If true, throw an exception with the age value.<br>
+ii. Inside the inner catch block, catch the exception (an integer) and print the age value to the console.<br>
+c. After the inner try-catch block, throw an exception with the message "you are not authorized to create the account."<br>
+If the age is not less than 18, print "you are authorized to create the account."<br>
+Catch any exceptions of type const char* and print the exception message to the console.<br>
+End<br>
+
 
 
